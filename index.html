@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhankar Dash - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SD</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="glass-container hero-glass">
+                <div class="hero-text">
+                    <h1 class="hero-name">
+                        <span class="kinetic-text">Subhankar</span>
+                        <span class="kinetic-text">Dash</span>
+                    </h1>
+                    <p class="hero-title">
+                        <span class="typing-animation">Full Stack Developer</span>
+                    </p>
+                    <p class="hero-subtitle">
+                        <span class="fade-in-text">Motivated IT Fresher | React.js Specialist</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-glass btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn-glass btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="glass-container about-glass">
+                    <div class="about-text">
+                        <p class="objective-text">
+                            Motivated IT fresher looking to join a dynamic organization that values innovation and learning. 
+                            Aiming to contribute my technical skills and strong work ethic to real-world projects, while 
+                            continuously improving and advancing my career in the IT industry.
+                        </p>
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">subhankardash45585@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">+91 7681879862</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">LinkedIn:</span>
+                                <a href="https://www.linkedin.com/in/subhankar23456" target="_blank" class="info-link">subhankar23456</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="glass-container skill-glass">
+                        <h3 class="skill-category-title">Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="glass-container skill-glass">
+                        <h3 class="skill-category-title">Frontend Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="glass-container skill-glass">
+                        <h3 class="skill-category-title">Backend Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Express.js</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="glass-container skill-glass">
+                        <h3 class="skill-category-title">Database</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-progress="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="glass-container project-glass">
+                        <div class="project-content">
+                            <h3 class="project-title">Real-Time Chat Application</h3>
+                            <p class="project-description">
+                                Built a full-stack secure chat app supporting private/group messaging with real-time delivery, 
+                                user authentication, encrypted communication, and cloud deployment.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">WebSocket</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="glass-container project-glass">
+                        <div class="project-content">
+                            <h3 class="project-title">Amazon Frontend Clone</h3>
+                            <p class="project-description">
+                                Built a responsive Amazon-like homepage UI with product listings, nav bar, 
+                                and banners using clean HTML/CSS and basic interactivity with JavaScript.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="glass-container project-glass">
+                        <div class="project-content">
+                            <h3 class="project-title">Swiggy Frontend Clone</h3>
+                            <p class="project-description">
+                                Developed a modern Swiggy-inspired food delivery UI using React. 
+                                Focused on component-based structure, menus, and responsive layout.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="glass-container project-glass">
+                        <div class="project-content">
+                            <h3 class="project-title">Chatbot Application</h3>
+                            <p class="project-description">
+                                Fast, responsive chatbot with chat history, typing indicator, 
+                                and local storage for data persistence.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-container education-glass">
+                        <div class="education-content">
+                            <h3 class="education-degree">Master of Computer Application</h3>
+                            <p class="education-institution">Kalinga Institute of Industrial Technology</p>
+                            <p class="education-duration">July 2023 - May 2025</p>
+                            <p class="education-grade">75%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-container education-glass">
+                        <div class="education-content">
+                            <h3 class="education-degree">Bachelor of Science in Physics</h3>
+                            <p class="education-institution">Sriram +3 Science Residential College</p>
+                            <p class="education-duration">May 2020 - June 2023</p>
+                            <p class="education-grade">78.46%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-container education-glass">
+                        <div class="education-content">
+                            <h3 class="education-degree">Full Stack Development using MERN Stack</h3>
+                            <p class="education-institution">KIIT Kareer School & Katallyst Consortium Pvt. Ltd.</p>
+                            <p class="education-duration">May–June 2024</p>
+                            <p class="education-description">Completed Summer Training Program covering MongoDB, Express.js, React, Node.js, and full-stack web development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="glass-container contact-glass">
+                    <div class="contact-info">
+                        <h3 class="contact-title">Let's Connect</h3>
+                        <p class="contact-description">
+                            I'm always open to discussing new opportunities and exciting projects. 
+                            Feel free to reach out if you'd like to collaborate or just have a chat!
+                        </p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:subhankardash45585@gmail.com" class="contact-value">subhankardash45585@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Phone</span>
+                                    <a href="tel:+917681879862" class="contact-value">+91 7681879862</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">💼</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/subhankar23456" target="_blank" class="contact-value">subhankar23456</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hobbies">
+                            <h4 class="hobbies-title">Hobbies & Interests</h4>
+                            <div class="hobbies-list">
+                                <span class="hobby-item">📚 Reading Books</span>
+                                <span class="hobby-item">🏏 Playing Cricket</span>
+                                <span class="hobby-item">🎬 Watching Movies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
